@@ -17,6 +17,11 @@ private bool isGrounded;
 public Transform ControladorSuelo;
 public float checkRadius;
 public LayerMask QueEsSuelo;
+// Detectar la dirección del movimiento
+private bool facingRight = true;
+
+// Obtener la referencia a la cámara
+public Transform camTransform;
 
     // Start is called before the first frame update
     void Start()
