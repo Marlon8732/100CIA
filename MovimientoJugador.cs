@@ -6,7 +6,9 @@ public class MovimientoJugador : MonoBehaviour
 {
   // Definir variables públicas para la velocidad y la fuerza del salto
 public float speed = 5f;
-public float jumpForce = 10f;
+public float jumpForce = 5f;
+public int maxJumpCount = 2; // Número máximo de saltos permitidos
+private int jumpCount = 0; // Contador de saltos realizados
 
 // Obtener los componentes necesarios del personaje
 private Rigidbody2D rb2d;
@@ -21,8 +23,7 @@ public LayerMask QueEsSuelo;
 // Detectar la dirección del movimiento
 private bool facingRight = true;
 
-// Obtener la referencia a la cámara
-public Transform camTransform;
+
 
 void Start()
 {
@@ -30,8 +31,7 @@ void Start()
     rb2d = GetComponent<Rigidbody2D>();
     anim = GetComponent<Animator>();
 
-    // Obtener la referencia a la cámara
-    camTransform = Camera.main.transform;
+    
 }
 
 void FixedUpdate()
@@ -59,11 +59,7 @@ void FixedUpdate()
     anim.SetFloat("Speed", Mathf.Abs(horizontalInput));
     anim.SetBool("IsGrounded", isGrounded);
 
-    // Actualizar la posición de la cámara para seguir al personaje
-    if (camTransform != null)
-    {
-        camTransform.position = new Vector3(transform.position.x, transform.position.y, camTransform.position.z);
-    }
+    
 }
 
 void Update()
