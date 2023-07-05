@@ -1,86 +1,81 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MovimientoJugador : MonoBehaviour
 {
-  // Definir variables públicas para la velocidad y la fuerza del salto
-public float speed = 5f;
-public float jumpForce = 5f;
-public int maxJumpCount = 2; // Número máximo de saltos permitidos
-private int jumpCount = 0; // Contador de saltos realizados
+     // Atributos de la clase
+    public float velocidadCorrer = 2;
+    public float velocidadSaltar = 3;
+    public int maxSaltos = 2;
+    private int saltosRealizados = 0;
+    private bool corriendo = false;
+    private bool saltando = false;
+    private Animator animator;
+    private Rigidbody2D rb2D;
 
-// Obtener los componentes necesarios del personaje
-private Rigidbody2D rb2d;
-private Animator anim;
+    // Botones
+    public Button btnLeft, btnRight, btnJump;
 
-// Detectar si el personaje está tocando el suelo
-private bool isGrounded;
-public Transform ControladorSuelo;
-public float checkRadius;
-public LayerMask QueEsSuelo;
-
-// Detectar la dirección del movimiento
-private bool facingRight = true;
-
-
-
-void Start()
-{
-    // Obtener los componentes del personaje
-    rb2d = GetComponent<Rigidbody2D>();
-    anim = GetComponent<Animator>();
-
-    
-}
-
-void FixedUpdate()
-{
-    // Detectar si el personaje está tocando el suelo
-    isGrounded = Physics2D.OverlapCircle(ControladorSuelo.position, checkRadius, QueEsSuelo);
-
-    // Obtener la entrada horizontal del jugador
-    float horizontalInput = Input.GetAxis("Horizontal");
-
-    // Mover el personaje en la dirección adecuada
-    rb2d.velocity = new Vector2(horizontalInput * speed, rb2d.velocity.y);
-
-    // Girar el personaje hacia la dirección del movimiento
-    if (horizontalInput > 0 && !facingRight)
+    // Start is called before the first frame update
+    void Start()
     {
-        Flip();
-    }
-    else if (horizontalInput < 0 && facingRight)
-    {
-        Flip();
+        animator = GetComponent<Animator>();
+        rb2D = GetComponent<Rigidbody2D>();
     }
 
-    // Actualizar el estado de la animación
-    anim.SetFloat("Speed", Mathf.Abs(horizontalInput));
-    anim.SetBool("IsGrounded", isGrounded);
-
-    
-}
-
-void Update()
-{
-    // Detectar si el jugador quiere saltar
-    if (Input.GetButtonDown("Jump") && isGrounded)
+    public void IrDerecha()
     {
-        rb2d.velocity = new Vector2(rb2d.velocity.x, jumpForce);
+        rb2D.velocity = new Vector2(velocidadCorrer, rb2D.velocity.y);
+        corriendo = true;
+        animator.SetBool("Correr", true);
+        animator.SetBool("Saludar", false);
+        animator.SetBool("Saltar", false);
     }
-}
 
-void Flip()
-{
-    // Cambiar la dirección del personaje
-    facingRight = !facingRight;
+    public void IrIzquierda()
+    {
+        rb2D.velocity = new Vector2(-velocidadCorrer, rb2D.velocity.y);
+        corriendo = true;
+        animator.SetBool("Correr", true);
+        animator.SetBool("Saludar", false);
+        animator.SetBool("Saltar", false);
+    }
 
-    // Invertir la escala del personaje en el eje X
-    Vector3 theScale = transform.localScale;
-    theScale.x *= -1;
-    transform.localScale = theScale;
-}
+    public void Saltar()
+    {
+        if (saltosRealizados < maxSaltos)
+        {
+            rb2D.velocity = new Vector2(rb2D.velocity.x, velocidadSaltar);
+            saltosRealizados++;
+            saltando = true;
+            animator.SetBool("Saltar", true);
+            animator.SetBool("Saludar", false);
+            animator.SetBool("Correr", false);
+        }
+    }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("suelo"))
+        {
+            saltosRealizados = 0;
+            saltando = false;
+            animator.SetBool("Saltar", false);
+            if (!corriendo)
+            {
+                animator.SetBool("Correr", false);
+                animator.SetBool("Saludar", true);
+            }
+        }
+    }
 
+    private void Update()
+    {
+        if (!corriendo && !saltando)
+        {
+            animator.SetBool("Saludar", true);
+        }
+    }
 }
