@@ -22,7 +22,7 @@ public class Monedas : MonoBehaviour
             hasCollided = true;
             animator.SetTrigger(ExplosionAnimationTrigger);
             float animLength = animator.GetCurrentAnimatorStateInfo(0).length;
-            StartCoroutine(DestroyAfterAnimation(animLength + 3f)); // Wait 3 seconds after animation finishes
+            StartCoroutine(DestroyAfterAnimation(animLength + 0f)); // Wait 3 seconds after animation finishes
         }
     }
         //En este código, se ha agregado la función DestroyAfterAnimationque utiliza una corrutina ( IEnumerator) para esperar durante un tiempo determinado antes de destruir el objeto. La corrutina DestroyAfterAnimationse llama después de que se ha activado la animación de explosión.

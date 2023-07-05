@@ -14,6 +14,11 @@ public class MovimientoJugador : MonoBehaviour
     private bool saltando = false;
     private Animator animator;
     private Rigidbody2D rb2D;
+    //En este código, se ha agregado una variable cantidadMonedaspara llevar a cabo un registro de las monedas recolectadas. 
+    private int cantidadMonedas = 0;
+    //También se ha agregado un componente Textllamado contadorMonedasque debe ser asignado en el Inspector al objeto que muestra el contador.
+    public Text contadorMonedas; // Referencia al objeto Text para mostrar el contador
+
 
     // Botones
     public Button btnLeft, btnRight, btnJump;
@@ -70,6 +75,16 @@ public class MovimientoJugador : MonoBehaviour
             }
         }
     }
+     private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Moneda"))
+        {
+            cantidadMonedas++;
+            contadorMonedas.text = "Monedas: " + cantidadMonedas.ToString();
+            //Destroy(collision.gameObject); // Destruir la moneda al recogerla
+        }
+    }
+    //En el método OnTriggerEnter2D, se verifica si el objeto colisionado tiene la etiqueta "Moneda". En ese caso, se incrementa la variable cantidadMonedas, se actualiza el valor del Text contadorMonedasy se destruye la moneda colisionada.
 
     private void Update()
     {
