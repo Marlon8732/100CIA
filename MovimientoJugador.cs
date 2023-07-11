@@ -5,9 +5,10 @@ using UnityEngine.UI;
 
 public class MovimientoJugador : MonoBehaviour
 {
-     // Atributos de la clase
+    private SpriteRenderer spriteRenderer; // Agrega una referencia al componente SpriteRenderer
+                                           // Atributos de la clase
     public float velocidadCorrer = 2;
-    public float velocidadSaltar = 3;
+    public float velocidadSaltar = 5;
     public int maxSaltos = 2;
     private int saltosRealizados = 0;
     private bool corriendo = false;
@@ -28,6 +29,7 @@ public class MovimientoJugador : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         rb2D = GetComponent<Rigidbody2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>(); // Obtén la referencia al componente SpriteRenderer
     }
 
     public void IrDerecha()
@@ -37,6 +39,10 @@ public class MovimientoJugador : MonoBehaviour
         animator.SetBool("Correr", true);
         animator.SetBool("Saludar", false);
         animator.SetBool("Saltar", false);
+
+        // Ajusta la orientación del sprite
+        spriteRenderer.flipX = false;
+        animator.SetTrigger("correr");
     }
 
     public void IrIzquierda()
@@ -46,6 +52,10 @@ public class MovimientoJugador : MonoBehaviour
         animator.SetBool("Correr", true);
         animator.SetBool("Saludar", false);
         animator.SetBool("Saltar", false);
+
+        // Ajusta la orientación del sprite
+        spriteRenderer.flipX = true;
+        animator.SetTrigger("correr");
     }
 
     public void Saltar()
@@ -58,6 +68,7 @@ public class MovimientoJugador : MonoBehaviour
             animator.SetBool("Saltar", true);
             animator.SetBool("Saludar", false);
             animator.SetBool("Correr", false);
+            animator.SetTrigger("saltar");
         }
     }
 
@@ -70,12 +81,17 @@ public class MovimientoJugador : MonoBehaviour
             animator.SetBool("Saltar", false);
             if (!corriendo)
             {
-                animator.SetBool("Correr", false);
+                animator.SetTrigger("saludar");
                 animator.SetBool("Saludar", true);
+                animator.SetBool("Correr", false);
+            }
+            else
+            {
+                //animator.SetBool("Saludar", false);
             }
         }
     }
-     private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Moneda"))
         {
@@ -90,7 +106,10 @@ public class MovimientoJugador : MonoBehaviour
     {
         if (!corriendo && !saltando)
         {
+            animator.SetTrigger("saludar");
             animator.SetBool("Saludar", true);
+            animator.SetBool("Saltar", false);
+            animator.SetBool("Correr", false);
         }
     }
 }
