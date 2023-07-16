@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="class_monedas" kind="class" language="C#" prot="public">
+    <compoundname>Monedas</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_monedas_1aa86f4106e4e535252d31b8f541324afc" prot="public" static="no" mutable="no">
+        <type>Animator</type>
+        <definition>Animator Monedas.animator</definition>
+        <argsstring></argsstring>
+        <name>animator</name>
+        <qualifiedname>Monedas.animator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/Monedas.cs" line="10" column="21" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/Monedas.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_monedas_1a964bf6ff153a8fbb7f5823e91e4d7d5c" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Monedas.ExplosionAnimationTrigger</definition>
+        <argsstring></argsstring>
+        <name>ExplosionAnimationTrigger</name>
+        <qualifiedname>Monedas.ExplosionAnimationTrigger</qualifiedname>
+        <initializer>= &quot;Explosion&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/Monedas.cs" line="11" column="19" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/Monedas.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_monedas_1a500a0fd8575e06582e76f50d4de48b35" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Monedas.jugadorTag</definition>
+        <argsstring></argsstring>
+        <name>jugadorTag</name>
+        <qualifiedname>Monedas.jugadorTag</qualifiedname>
+        <initializer>= &quot;Jugador&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/Monedas.cs" line="12" column="19" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/Monedas.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_monedas_1a4acaa5b255ec9c92ec0b12b035692f72" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Monedas.hasCollided</definition>
+        <argsstring></argsstring>
+        <name>hasCollided</name>
+        <qualifiedname>Monedas.hasCollided</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/Monedas.cs" line="14" column="18" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/Monedas.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_monedas_1a2d60087c1bfdd7e875db8392393b5d53" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Monedas.OnTriggerEnter2D</definition>
+        <argsstring>(Collider2D collision)</argsstring>
+        <name>OnTriggerEnter2D</name>
+        <qualifiedname>Monedas.OnTriggerEnter2D</qualifiedname>
+        <param>
+          <type>Collider2D</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+<para>Este código utiliza el método OnTriggerEnterpara detectar colisiones con otros colisionadores. Cuando la moneda colisiona con un objeto que tiene la etiqueta &quot;Jugador&quot;, se establece el disparador de animación &quot;Explosion&quot; en el componente Animator y se destruye el objeto después de que la animación haya terminado de reproducirse. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>collision</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/Monedas.cs" line="22" column="18" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/Monedas.cs" bodystart="22" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_monedas_1a27104b726fc5ededc93584c34372eb70" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator Monedas.DestroyAfterAnimation</definition>
+        <argsstring>(float delay)</argsstring>
+        <name>DestroyAfterAnimation</name>
+        <qualifiedname>Monedas.DestroyAfterAnimation</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>delay</declname>
+        </param>
+        <briefdescription>
+<para>Esta corrutina permite esperar durante un tiempo determinado antes de destruir el objeto usando yield return new WaitForSeconds(delay) y despues destruye un objeto que en estecado debe ser un objeto enemigo. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/Monedas.cs" line="39" column="25" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/Monedas.cs" bodystart="39" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Esta clase contola las monedas, el cambio de animacion al entrar en contacto con el personaje y eliminar el objeto posteriormente. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Monedas</label>
+        <link refid="class_monedas"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Monedas</label>
+        <link refid="class_monedas"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/Monedas.cs" line="8" column="7" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/Monedas.cs" bodystart="9" bodyend="44"/>
+    <listofallmembers>
+      <member refid="class_monedas_1aa86f4106e4e535252d31b8f541324afc" prot="public" virt="non-virtual"><scope>Monedas</scope><name>animator</name></member>
+      <member refid="class_monedas_1a27104b726fc5ededc93584c34372eb70" prot="private" virt="non-virtual"><scope>Monedas</scope><name>DestroyAfterAnimation</name></member>
+      <member refid="class_monedas_1a964bf6ff153a8fbb7f5823e91e4d7d5c" prot="public" virt="non-virtual"><scope>Monedas</scope><name>ExplosionAnimationTrigger</name></member>
+      <member refid="class_monedas_1a4acaa5b255ec9c92ec0b12b035692f72" prot="private" virt="non-virtual"><scope>Monedas</scope><name>hasCollided</name></member>
+      <member refid="class_monedas_1a500a0fd8575e06582e76f50d4de48b35" prot="public" virt="non-virtual"><scope>Monedas</scope><name>jugadorTag</name></member>
+      <member refid="class_monedas_1a2d60087c1bfdd7e875db8392393b5d53" prot="private" virt="non-virtual"><scope>Monedas</scope><name>OnTriggerEnter2D</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

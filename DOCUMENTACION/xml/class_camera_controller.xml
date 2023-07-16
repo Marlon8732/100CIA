@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="class_camera_controller" kind="class" language="C#" prot="public">
+    <compoundname>CameraController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_camera_controller_1a65d8a542dcb4562b13f9cc35d2c4c6ab" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform CameraController.personaje</definition>
+        <argsstring></argsstring>
+        <name>personaje</name>
+        <qualifiedname>CameraController.personaje</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/CameraController.cs" line="9" column="22" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/CameraController.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_camera_controller_1a7a6c3241beb141bbe76f394a3b4a3dd4" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CameraController.tamañoCamara</definition>
+        <argsstring></argsstring>
+        <name>tamañoCamara</name>
+        <qualifiedname>CameraController.tamañoCamara</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/CameraController.cs" line="10" column="19" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/CameraController.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_controller_1a8cc4ec354939bbde82f16362510ffb77" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CameraController.alturaPantalla</definition>
+        <argsstring></argsstring>
+        <name>alturaPantalla</name>
+        <qualifiedname>CameraController.alturaPantalla</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/CameraController.cs" line="11" column="19" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/CameraController.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_camera_controller_1ad4a238c6f7db3ee003302a245d860860" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraController.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>CameraController.Start</qualifiedname>
+        <briefdescription>
+<para>Obtiene el tamaño de la cámara Calcula la altura de la pantalla en función del tamaño de la cámara. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/CameraController.cs" line="18" column="10" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/CameraController.cs" bodystart="18" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_controller_1a7c4f486f4bcbd1d54a346fdce9707bd5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraController.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>CameraController.Update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/CameraController.cs" line="26" column="10" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/CameraController.cs" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_controller_1a6336e082c12178f32975b89e47949c59" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraController.CalcularPosicionCamara</definition>
+        <argsstring>()</argsstring>
+        <name>CalcularPosicionCamara</name>
+        <qualifiedname>CameraController.CalcularPosicionCamara</qualifiedname>
+        <briefdescription>
+<para>Este metodo calcula en la pantalla que se encuentra el personaje en basa a su pusicion en Y calcula la altura a la que debe estar la camara en fucnion de pantalla en la que se encuetra el personaje. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/CameraController.cs" line="34" column="10" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/CameraController.cs" bodystart="34" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Esta clase controla la camara para que siga al personaje mientras se desplaza por todo el mapa. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CameraController</label>
+        <link refid="class_camera_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CameraController</label>
+        <link refid="class_camera_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/CameraController.cs" line="7" column="7" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/CameraController.cs" bodystart="8" bodyend="42"/>
+    <listofallmembers>
+      <member refid="class_camera_controller_1a8cc4ec354939bbde82f16362510ffb77" prot="private" virt="non-virtual"><scope>CameraController</scope><name>alturaPantalla</name></member>
+      <member refid="class_camera_controller_1a6336e082c12178f32975b89e47949c59" prot="private" virt="non-virtual"><scope>CameraController</scope><name>CalcularPosicionCamara</name></member>
+      <member refid="class_camera_controller_1a65d8a542dcb4562b13f9cc35d2c4c6ab" prot="public" virt="non-virtual"><scope>CameraController</scope><name>personaje</name></member>
+      <member refid="class_camera_controller_1ad4a238c6f7db3ee003302a245d860860" prot="private" virt="non-virtual"><scope>CameraController</scope><name>Start</name></member>
+      <member refid="class_camera_controller_1a7a6c3241beb141bbe76f394a3b4a3dd4" prot="private" virt="non-virtual"><scope>CameraController</scope><name>tamañoCamara</name></member>
+      <member refid="class_camera_controller_1a7c4f486f4bcbd1d54a346fdce9707bd5" prot="private" virt="non-virtual"><scope>CameraController</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

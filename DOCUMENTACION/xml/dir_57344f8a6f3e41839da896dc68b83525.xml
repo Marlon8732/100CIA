@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="dir_57344f8a6f3e41839da896dc68b83525" kind="dir">
+    <compoundname>D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos</compoundname>
+    <innerfile refid="_bandera_8cs">Bandera.cs</innerfile>
+    <innerfile refid="_cambiar_escena_8cs">CambiarEscena.cs</innerfile>
+    <innerfile refid="_camera_controller_8cs">CameraController.cs</innerfile>
+    <innerfile refid="_enemigo_8cs">Enemigo.cs</innerfile>
+    <innerfile refid="_falso_verdadero_8cs">FalsoVerdadero.cs</innerfile>
+    <innerfile refid="is_grounded_8cs">isGrounded.cs</innerfile>
+    <innerfile refid="_monedas_8cs">Monedas.cs</innerfile>
+    <innerfile refid="_movimiento_jugador_8cs">MovimientoJugador.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/"/>
+  </compounddef>
+</doxygen>

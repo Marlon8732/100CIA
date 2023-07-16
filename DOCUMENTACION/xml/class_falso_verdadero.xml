@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="class_falso_verdadero" kind="class" language="C#" prot="public">
+    <compoundname>FalsoVerdadero</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_falso_verdadero_1adfc89ab8a5b6dd0a0fd58b6b7c58fce0" prot="private" static="no" mutable="no">
+        <type>Image[]</type>
+        <definition>Image [] FalsoVerdadero.respuestas</definition>
+        <argsstring></argsstring>
+        <name>respuestas</name>
+        <qualifiedname>FalsoVerdadero.respuestas</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/FalsoVerdadero.cs" line="12" column="19" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/FalsoVerdadero.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_falso_verdadero_1afff5e7ead438e4bd525fa790e94a45b0" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject FalsoVerdadero.canvas</definition>
+        <argsstring></argsstring>
+        <name>canvas</name>
+        <qualifiedname>FalsoVerdadero.canvas</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/FalsoVerdadero.cs" line="14" column="23" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/FalsoVerdadero.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_falso_verdadero_1af5bb6f509abc639020ccddf0660dd3fa" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject FalsoVerdadero.objetoADestruir</definition>
+        <argsstring></argsstring>
+        <name>objetoADestruir</name>
+        <qualifiedname>FalsoVerdadero.objetoADestruir</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/FalsoVerdadero.cs" line="16" column="23" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/FalsoVerdadero.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_falso_verdadero_1a10393b4e8993a0cf1730f24a6d70088d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FalsoVerdadero.ValidarPregunta</definition>
+        <argsstring>(bool resp)</argsstring>
+        <name>ValidarPregunta</name>
+        <qualifiedname>FalsoVerdadero.ValidarPregunta</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>resp</declname>
+        </param>
+        <briefdescription>
+<para>Este metodo establece una pausa al juego y luego verifica la respuesta correcta segun sea marcada desde la interfaz de unity segun la respuesta activa una una imagen que sirve de retroalimentacion para saber si se respondio correctamente o no <linebreak/>
+ </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>resp</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/FalsoVerdadero.cs" line="23" column="17" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/FalsoVerdadero.cs" bodystart="23" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_falso_verdadero_1af7c4c184fd0db9fc1c8bd080e84786e4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator FalsoVerdadero.DesactivarCanvasYDestruirObjeto</definition>
+        <argsstring>()</argsstring>
+        <name>DesactivarCanvasYDestruirObjeto</name>
+        <qualifiedname>FalsoVerdadero.DesactivarCanvasYDestruirObjeto</qualifiedname>
+        <briefdescription>
+<para>Esta rutina lamada &quot;DesactivarCanvasYDestruirObjeto&quot; que se ejecuta como una corutina Hace que la corutina espere durante 3 segundos en tiempo real. Durante este tiempo, la ejecución se pausa en este punto Desactiva el objeto Canvas que se asignó al campo canvas. Esto oculta el objeto Canvas en la escena. Comprueba si el objeto objetoADestruir no es nulo y, si es así, destruye el objeto en la escena utilizando la función Destroy(). Este objeto debe haberse asignado desde el editor de Unity. Establece la escala de tiempo del juego a 1, lo que reanuda el flujo normal del juego. Esto asegura que el juego continúe ejecutándose después de la pausa anteriormente establecida. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/FalsoVerdadero.cs" line="46" column="25" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/FalsoVerdadero.cs" bodystart="46" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Esta clase controla los canvas donde estan las actiivdades de verdadero y falso tambien se destrulle el enemigo una vez resulto la actividad. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FalsoVerdadero</label>
+        <link refid="class_falso_verdadero"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FalsoVerdadero</label>
+        <link refid="class_falso_verdadero"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/FalsoVerdadero.cs" line="9" column="7" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/FalsoVerdadero.cs" bodystart="10" bodyend="59"/>
+    <listofallmembers>
+      <member refid="class_falso_verdadero_1afff5e7ead438e4bd525fa790e94a45b0" prot="public" virt="non-virtual"><scope>FalsoVerdadero</scope><name>canvas</name></member>
+      <member refid="class_falso_verdadero_1af7c4c184fd0db9fc1c8bd080e84786e4" prot="private" virt="non-virtual"><scope>FalsoVerdadero</scope><name>DesactivarCanvasYDestruirObjeto</name></member>
+      <member refid="class_falso_verdadero_1af5bb6f509abc639020ccddf0660dd3fa" prot="public" virt="non-virtual"><scope>FalsoVerdadero</scope><name>objetoADestruir</name></member>
+      <member refid="class_falso_verdadero_1adfc89ab8a5b6dd0a0fd58b6b7c58fce0" prot="private" virt="non-virtual"><scope>FalsoVerdadero</scope><name>respuestas</name></member>
+      <member refid="class_falso_verdadero_1a10393b4e8993a0cf1730f24a6d70088d" prot="public" virt="non-virtual"><scope>FalsoVerdadero</scope><name>ValidarPregunta</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

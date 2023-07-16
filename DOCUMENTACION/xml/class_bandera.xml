@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="class_bandera" kind="class" language="C#" prot="public">
+    <compoundname>Bandera</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_bandera_1a0aaae06502e6f8f5bad887c9a1a2753c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Bandera.OnTriggerEnter2D</definition>
+        <argsstring>(Collider2D other)</argsstring>
+        <name>OnTriggerEnter2D</name>
+        <qualifiedname>Bandera.OnTriggerEnter2D</qualifiedname>
+        <param>
+          <type>Collider2D</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Este método se ejecuta cuando otro objeto entra en contacto con el collider de la bandera</para>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+<para>Comprobamos si el objeto que interactúa con la bandera tiene la etiqueta &quot;Jugador&quot;</para>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+<para>Rutina para el cambio de escena con una pausa de 2 segundos</para>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/Bandera.cs" line="15" column="18" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/Bandera.cs" bodystart="15" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Esta clase sirve para controlar la bandera y realizar el cambio de escena al momento en que el personaje cruce llegue a la bandera. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Bandera</label>
+        <link refid="class_bandera"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Bandera</label>
+        <link refid="class_bandera"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/Bandera.cs" line="9" column="7" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/Bandera.cs" bodystart="10" bodyend="36"/>
+    <listofallmembers>
+      <member refid="class_bandera_1a0aaae06502e6f8f5bad887c9a1a2753c" prot="private" virt="non-virtual"><scope>Bandera</scope><name>OnTriggerEnter2D</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

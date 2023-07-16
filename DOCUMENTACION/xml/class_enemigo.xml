@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="class_enemigo" kind="class" language="C#" prot="public">
+    <compoundname>Enemigo</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_enemigo_1a97e7e34c9431da759b0514ee17d406cb" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Enemigo.canvas</definition>
+        <argsstring></argsstring>
+        <name>canvas</name>
+        <qualifiedname>Enemigo.canvas</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/Enemigo.cs" line="9" column="23" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/Enemigo.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_enemigo_1ac9dfe4d586692fb72a88435941b94e32" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Enemigo.OnTriggerEnter2D</definition>
+        <argsstring>(Collider2D other)</argsstring>
+        <name>OnTriggerEnter2D</name>
+        <qualifiedname>Enemigo.OnTriggerEnter2D</qualifiedname>
+        <param>
+          <type>Collider2D</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Este moetodo compruena si el objeto enemigo colisiono con el objeto etiqueta y de cumplirse esta condicion activa el canvas. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/Enemigo.cs" line="17" column="18" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/Enemigo.cs" bodystart="17" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Esta clase <ref refid="class_enemigo" kindref="compound">Enemigo</ref> controla la interacción de un enemigo con el jugador en Unity. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Enemigo</label>
+        <link refid="class_enemigo"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Enemigo</label>
+        <link refid="class_enemigo"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/Enemigo.cs" line="7" column="7" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/Enemigo.cs" bodystart="8" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_enemigo_1a97e7e34c9431da759b0514ee17d406cb" prot="public" virt="non-virtual"><scope>Enemigo</scope><name>canvas</name></member>
+      <member refid="class_enemigo_1ac9dfe4d586692fb72a88435941b94e32" prot="private" virt="non-virtual"><scope>Enemigo</scope><name>OnTriggerEnter2D</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="classis_grounded" kind="class" language="C#" prot="public">
+    <compoundname>isGrounded</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classis_grounded_1a56f473001dc03d2850d607e2b3494e8a" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform isGrounded.groundCheck</definition>
+        <argsstring></argsstring>
+        <name>groundCheck</name>
+        <qualifiedname>isGrounded.groundCheck</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/isGrounded.cs" line="9" column="22" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/isGrounded.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classis_grounded_1a9619c4b47fffa1822045cad255ab27ea" prot="public" static="no" mutable="no">
+        <type>LayerMask</type>
+        <definition>LayerMask isGrounded.groundLayer</definition>
+        <argsstring></argsstring>
+        <name>groundLayer</name>
+        <qualifiedname>isGrounded.groundLayer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/isGrounded.cs" line="10" column="22" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/isGrounded.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classis_grounded_1a47ddffeea20b1539ab2730abdaa69e49" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float isGrounded.checkRadius</definition>
+        <argsstring></argsstring>
+        <name>checkRadius</name>
+        <qualifiedname>isGrounded.checkRadius</qualifiedname>
+        <initializer>= 0.2f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/isGrounded.cs" line="11" column="18" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/isGrounded.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classis_grounded_1aaa8e9ff1b72f43c8faad01dfdd5c5fbe" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool isGrounded.EsSuelo</definition>
+        <argsstring></argsstring>
+        <name>EsSuelo</name>
+        <qualifiedname>isGrounded.EsSuelo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/isGrounded.cs" line="13" column="18" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/isGrounded.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classis_grounded_1ac2ca6f71e2f0530ac07920c8930540b4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void isGrounded.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>isGrounded.Update</qualifiedname>
+        <briefdescription>
+<para>Este es un método de actualización que se llama en cada cuadro de la ejecución del juego. En este caso, se utiliza para realizar la detección de colisión con el suelo. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/isGrounded.cs" line="17" column="18" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/isGrounded.cs" bodystart="17" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classis_grounded_1a602c91df7498e902f7756e54667cae52" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool isGrounded.IsGrounded</definition>
+        <argsstring>()</argsstring>
+        <name>IsGrounded</name>
+        <qualifiedname>isGrounded.IsGrounded</qualifiedname>
+        <briefdescription>
+<para>Este es un método público que devuelve un valor booleano que indica si el personaje está en el suelo. Se utiliza para acceder a la variable EsSuelo desde otros scripts o componentes en el juego. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/isGrounded.cs" line="26" column="17" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/isGrounded.cs" bodystart="26" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Esta clase permite al personaje identificar el suelo. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>isGrounded</label>
+        <link refid="classis_grounded"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>isGrounded</label>
+        <link refid="classis_grounded"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/isGrounded.cs" line="7" column="7" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/isGrounded.cs" bodystart="8" bodyend="30"/>
+    <listofallmembers>
+      <member refid="classis_grounded_1a47ddffeea20b1539ab2730abdaa69e49" prot="public" virt="non-virtual"><scope>isGrounded</scope><name>checkRadius</name></member>
+      <member refid="classis_grounded_1aaa8e9ff1b72f43c8faad01dfdd5c5fbe" prot="private" virt="non-virtual"><scope>isGrounded</scope><name>EsSuelo</name></member>
+      <member refid="classis_grounded_1a56f473001dc03d2850d607e2b3494e8a" prot="public" virt="non-virtual"><scope>isGrounded</scope><name>groundCheck</name></member>
+      <member refid="classis_grounded_1a9619c4b47fffa1822045cad255ab27ea" prot="public" virt="non-virtual"><scope>isGrounded</scope><name>groundLayer</name></member>
+      <member refid="classis_grounded_1a602c91df7498e902f7756e54667cae52" prot="public" virt="non-virtual"><scope>isGrounded</scope><name>IsGrounded</name></member>
+      <member refid="classis_grounded_1ac2ca6f71e2f0530ac07920c8930540b4" prot="private" virt="non-virtual"><scope>isGrounded</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

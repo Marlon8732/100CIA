@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="class_cambiar_escena" kind="class" language="C#" prot="public">
+    <compoundname>CambiarEscena</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_cambiar_escena_1ad862d06a8eebe5b93a3b1ad7fcbae4c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CambiarEscena.Cambiar</definition>
+        <argsstring>(string escena)</argsstring>
+        <name>Cambiar</name>
+        <qualifiedname>CambiarEscena.Cambiar</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>escena</declname>
+        </param>
+        <briefdescription>
+<para>permite cambiar de escena y cerrar el juego al presionar un botón en Unity </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>escena</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/CambiarEscena.cs" line="14" column="17" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/CambiarEscena.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cambiar_escena_1a1cc72acf40e8912e990a061341a999d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CambiarEscena.Salir</definition>
+        <argsstring>()</argsstring>
+        <name>Salir</name>
+        <qualifiedname>CambiarEscena.Salir</qualifiedname>
+        <briefdescription>
+<para>Este método cierra la aplicación o el juego. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/CambiarEscena.cs" line="21" column="17" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/CambiarEscena.cs" bodystart="21" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Esta clase permite cambiar de escena y cerrar el juego al presionar un boton. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CambiarEscena</label>
+        <link refid="class_cambiar_escena"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CambiarEscena</label>
+        <link refid="class_cambiar_escena"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/CambiarEscena.cs" line="8" column="7" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/CambiarEscena.cs" bodystart="9" bodyend="26"/>
+    <listofallmembers>
+      <member refid="class_cambiar_escena_1ad862d06a8eebe5b93a3b1ad7fcbae4c7" prot="public" virt="non-virtual"><scope>CambiarEscena</scope><name>Cambiar</name></member>
+      <member refid="class_cambiar_escena_1a1cc72acf40e8912e990a061341a999d7" prot="public" virt="non-virtual"><scope>CambiarEscena</scope><name>Salir</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,400 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="class_movimiento_jugador" kind="class" language="C#" prot="public">
+    <compoundname>MovimientoJugador</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_movimiento_jugador_1a9bd58b4b7ae652b5760ba5dcd4c22d0f" prot="private" static="no" mutable="no">
+        <type>SpriteRenderer</type>
+        <definition>SpriteRenderer MovimientoJugador.spriteRenderer</definition>
+        <argsstring></argsstring>
+        <name>spriteRenderer</name>
+        <qualifiedname>MovimientoJugador.spriteRenderer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/MovimientoJugador.cs" line="11" column="28" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/MovimientoJugador.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_movimiento_jugador_1aae3d111ddb3b8c9fc00137bb871a8f9c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MovimientoJugador.saltosRealizados</definition>
+        <argsstring></argsstring>
+        <name>saltosRealizados</name>
+        <qualifiedname>MovimientoJugador.saltosRealizados</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/MovimientoJugador.cs" line="16" column="17" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/MovimientoJugador.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_movimiento_jugador_1ac2c9da1b0681ef6e96fd7226da4c6e29" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MovimientoJugador.corriendo</definition>
+        <argsstring></argsstring>
+        <name>corriendo</name>
+        <qualifiedname>MovimientoJugador.corriendo</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/MovimientoJugador.cs" line="17" column="18" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/MovimientoJugador.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_movimiento_jugador_1ae18121726f8b6745e83cf173659ef19b" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MovimientoJugador.saltando</definition>
+        <argsstring></argsstring>
+        <name>saltando</name>
+        <qualifiedname>MovimientoJugador.saltando</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/MovimientoJugador.cs" line="18" column="18" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/MovimientoJugador.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_movimiento_jugador_1af509f1eac66176c9839363050f7453e0" prot="private" static="no" mutable="no">
+        <type>Animator</type>
+        <definition>Animator MovimientoJugador.animator</definition>
+        <argsstring></argsstring>
+        <name>animator</name>
+        <qualifiedname>MovimientoJugador.animator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/MovimientoJugador.cs" line="19" column="22" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/MovimientoJugador.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_movimiento_jugador_1a568515b63300b2b941287eccb07e365f" prot="private" static="no" mutable="no">
+        <type>Rigidbody2D</type>
+        <definition>Rigidbody2D MovimientoJugador.rb2D</definition>
+        <argsstring></argsstring>
+        <name>rb2D</name>
+        <qualifiedname>MovimientoJugador.rb2D</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/MovimientoJugador.cs" line="20" column="25" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/MovimientoJugador.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_movimiento_jugador_1abf9f943e33230c48b8e7a15ef60aa533" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MovimientoJugador.cantidadMonedas</definition>
+        <argsstring></argsstring>
+        <name>cantidadMonedas</name>
+        <qualifiedname>MovimientoJugador.cantidadMonedas</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/MovimientoJugador.cs" line="22" column="17" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/MovimientoJugador.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_movimiento_jugador_1a4a818418978cf5e45068e73c66e1f545" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MovimientoJugador.velocidadCorrer</definition>
+        <argsstring></argsstring>
+        <name>velocidadCorrer</name>
+        <qualifiedname>MovimientoJugador.velocidadCorrer</qualifiedname>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/MovimientoJugador.cs" line="13" column="18" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/MovimientoJugador.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_movimiento_jugador_1aea1c3788c2e8f428dc4ecb01f05be221" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MovimientoJugador.velocidadSaltar</definition>
+        <argsstring></argsstring>
+        <name>velocidadSaltar</name>
+        <qualifiedname>MovimientoJugador.velocidadSaltar</qualifiedname>
+        <initializer>= 5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/MovimientoJugador.cs" line="14" column="18" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/MovimientoJugador.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_movimiento_jugador_1a626ab5f80aa51fa47215425188c39f96" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MovimientoJugador.maxSaltos</definition>
+        <argsstring></argsstring>
+        <name>maxSaltos</name>
+        <qualifiedname>MovimientoJugador.maxSaltos</qualifiedname>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/MovimientoJugador.cs" line="15" column="16" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/MovimientoJugador.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_movimiento_jugador_1a2bd1a0f4f4efa163bde4ff95bef12ea6" prot="public" static="no" mutable="no">
+        <type>Text</type>
+        <definition>Text MovimientoJugador.contadorMonedas</definition>
+        <argsstring></argsstring>
+        <name>contadorMonedas</name>
+        <qualifiedname>MovimientoJugador.contadorMonedas</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/MovimientoJugador.cs" line="24" column="17" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/MovimientoJugador.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_movimiento_jugador_1a20fc6769bd7c125585951ac22d1acf34" prot="public" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button MovimientoJugador.btnLeft</definition>
+        <argsstring></argsstring>
+        <name>btnLeft</name>
+        <qualifiedname>MovimientoJugador.btnLeft</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/MovimientoJugador.cs" line="28" column="19" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/MovimientoJugador.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_movimiento_jugador_1a0316d8e0bde14ff86934053e1ad247a7" prot="public" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button MovimientoJugador.btnRight</definition>
+        <argsstring></argsstring>
+        <name>btnRight</name>
+        <qualifiedname>MovimientoJugador.btnRight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/MovimientoJugador.cs" line="28" column="27" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/MovimientoJugador.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_movimiento_jugador_1a45b7acfc9cf7a8e5b9df9cfa15e7c91c" prot="public" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button MovimientoJugador.btnJump</definition>
+        <argsstring></argsstring>
+        <name>btnJump</name>
+        <qualifiedname>MovimientoJugador.btnJump</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/MovimientoJugador.cs" line="28" column="36" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/MovimientoJugador.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_movimiento_jugador_1a1eff3188345171542ce18cd21934390d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MovimientoJugador.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>MovimientoJugador.Start</qualifiedname>
+        <briefdescription>
+<para>En el metodo start se obtienen los componentes de animacion el rigibody2d y el la referencia del SpriteRenderer. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/MovimientoJugador.cs" line="37" column="10" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/MovimientoJugador.cs" bodystart="37" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_movimiento_jugador_1af119b0cf1122cb2b9324f92093f2ef86" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MovimientoJugador.OnCollisionEnter2D</definition>
+        <argsstring>(Collision2D collision)</argsstring>
+        <name>OnCollisionEnter2D</name>
+        <qualifiedname>MovimientoJugador.OnCollisionEnter2D</qualifiedname>
+        <param>
+          <type>Collision2D</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+<para>Este Metodo coprueba si el jugador esta en contacto con el suelo y reestablece el contador de saltos, tambien cambia a la animacion de saltar. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>collision</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/MovimientoJugador.cs" line="98" column="18" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/MovimientoJugador.cs" bodystart="98" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="class_movimiento_jugador_1a368fea00c70ea696d467903ee05b4b77" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MovimientoJugador.OnTriggerEnter2D</definition>
+        <argsstring>(Collider2D collision)</argsstring>
+        <name>OnTriggerEnter2D</name>
+        <qualifiedname>MovimientoJugador.OnTriggerEnter2D</qualifiedname>
+        <param>
+          <type>Collider2D</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+<para>Este metodo comprueba si el jugador entra en contacto con el onejto moneda e incrementa en uno el contador de monedas. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>collision</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/MovimientoJugador.cs" line="123" column="18" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/MovimientoJugador.cs" bodystart="123" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_movimiento_jugador_1adab2bd078e77d5171ec8e5918dc2db6b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MovimientoJugador.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>MovimientoJugador.Update</qualifiedname>
+        <briefdescription>
+<para>En el metodo Update se verifica el estado actual del jugador, si este esta saltando o corriendo, si no se cumplen esta condiciones se establece la animacion saludar. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/MovimientoJugador.cs" line="138" column="18" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/MovimientoJugador.cs" bodystart="138" bodyend="147"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_movimiento_jugador_1a7337bc9aaf0bb88c2e02cc33e0250019" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MovimientoJugador.IrDerecha</definition>
+        <argsstring>()</argsstring>
+        <name>IrDerecha</name>
+        <qualifiedname>MovimientoJugador.IrDerecha</qualifiedname>
+        <briefdescription>
+<para>Mueve ell jugador hacia la derecha con la velocidad de correr y ajusta la orientacion del sprite. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/MovimientoJugador.cs" line="46" column="17" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/MovimientoJugador.cs" bodystart="46" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_movimiento_jugador_1a8a2c1756bbf3f5a7b03f0abe0b390a0a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MovimientoJugador.IrIzquierda</definition>
+        <argsstring>()</argsstring>
+        <name>IrIzquierda</name>
+        <qualifiedname>MovimientoJugador.IrIzquierda</qualifiedname>
+        <briefdescription>
+<para>Mueve al jugador hacia la izquierda con la velocidad de correr y ajusta la orientacion de sprite. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/MovimientoJugador.cs" line="62" column="17" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/MovimientoJugador.cs" bodystart="62" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_movimiento_jugador_1a8edabf73fd84a50fece709a83161442e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MovimientoJugador.Saltar</definition>
+        <argsstring>()</argsstring>
+        <name>Saltar</name>
+        <qualifiedname>MovimientoJugador.Saltar</qualifiedname>
+        <briefdescription>
+<para>Hace que ek jugador salte con la velocidad de saltar. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/MovimientoJugador.cs" line="78" column="17" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/MovimientoJugador.cs" bodystart="78" bodyend="90"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Esta clase controla los movientos del personaje, la transicion de animaciones asi como el conteo de las monedas en las cuales se entro en contacto. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>MovimientoJugador</label>
+        <link refid="class_movimiento_jugador"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>MovimientoJugador</label>
+        <link refid="class_movimiento_jugador"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/MovimientoJugador.cs" line="9" column="7" bodyfile="D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos/MovimientoJugador.cs" bodystart="10" bodyend="148"/>
+    <listofallmembers>
+      <member refid="class_movimiento_jugador_1af509f1eac66176c9839363050f7453e0" prot="private" virt="non-virtual"><scope>MovimientoJugador</scope><name>animator</name></member>
+      <member refid="class_movimiento_jugador_1a45b7acfc9cf7a8e5b9df9cfa15e7c91c" prot="public" virt="non-virtual"><scope>MovimientoJugador</scope><name>btnJump</name></member>
+      <member refid="class_movimiento_jugador_1a20fc6769bd7c125585951ac22d1acf34" prot="public" virt="non-virtual"><scope>MovimientoJugador</scope><name>btnLeft</name></member>
+      <member refid="class_movimiento_jugador_1a0316d8e0bde14ff86934053e1ad247a7" prot="public" virt="non-virtual"><scope>MovimientoJugador</scope><name>btnRight</name></member>
+      <member refid="class_movimiento_jugador_1abf9f943e33230c48b8e7a15ef60aa533" prot="private" virt="non-virtual"><scope>MovimientoJugador</scope><name>cantidadMonedas</name></member>
+      <member refid="class_movimiento_jugador_1a2bd1a0f4f4efa163bde4ff95bef12ea6" prot="public" virt="non-virtual"><scope>MovimientoJugador</scope><name>contadorMonedas</name></member>
+      <member refid="class_movimiento_jugador_1ac2c9da1b0681ef6e96fd7226da4c6e29" prot="private" virt="non-virtual"><scope>MovimientoJugador</scope><name>corriendo</name></member>
+      <member refid="class_movimiento_jugador_1a7337bc9aaf0bb88c2e02cc33e0250019" prot="public" virt="non-virtual"><scope>MovimientoJugador</scope><name>IrDerecha</name></member>
+      <member refid="class_movimiento_jugador_1a8a2c1756bbf3f5a7b03f0abe0b390a0a" prot="public" virt="non-virtual"><scope>MovimientoJugador</scope><name>IrIzquierda</name></member>
+      <member refid="class_movimiento_jugador_1a626ab5f80aa51fa47215425188c39f96" prot="public" virt="non-virtual"><scope>MovimientoJugador</scope><name>maxSaltos</name></member>
+      <member refid="class_movimiento_jugador_1af119b0cf1122cb2b9324f92093f2ef86" prot="private" virt="non-virtual"><scope>MovimientoJugador</scope><name>OnCollisionEnter2D</name></member>
+      <member refid="class_movimiento_jugador_1a368fea00c70ea696d467903ee05b4b77" prot="private" virt="non-virtual"><scope>MovimientoJugador</scope><name>OnTriggerEnter2D</name></member>
+      <member refid="class_movimiento_jugador_1a568515b63300b2b941287eccb07e365f" prot="private" virt="non-virtual"><scope>MovimientoJugador</scope><name>rb2D</name></member>
+      <member refid="class_movimiento_jugador_1ae18121726f8b6745e83cf173659ef19b" prot="private" virt="non-virtual"><scope>MovimientoJugador</scope><name>saltando</name></member>
+      <member refid="class_movimiento_jugador_1a8edabf73fd84a50fece709a83161442e" prot="public" virt="non-virtual"><scope>MovimientoJugador</scope><name>Saltar</name></member>
+      <member refid="class_movimiento_jugador_1aae3d111ddb3b8c9fc00137bb871a8f9c" prot="private" virt="non-virtual"><scope>MovimientoJugador</scope><name>saltosRealizados</name></member>
+      <member refid="class_movimiento_jugador_1a9bd58b4b7ae652b5760ba5dcd4c22d0f" prot="private" virt="non-virtual"><scope>MovimientoJugador</scope><name>spriteRenderer</name></member>
+      <member refid="class_movimiento_jugador_1a1eff3188345171542ce18cd21934390d" prot="private" virt="non-virtual"><scope>MovimientoJugador</scope><name>Start</name></member>
+      <member refid="class_movimiento_jugador_1adab2bd078e77d5171ec8e5918dc2db6b" prot="private" virt="non-virtual"><scope>MovimientoJugador</scope><name>Update</name></member>
+      <member refid="class_movimiento_jugador_1a4a818418978cf5e45068e73c66e1f545" prot="public" virt="non-virtual"><scope>MovimientoJugador</scope><name>velocidadCorrer</name></member>
+      <member refid="class_movimiento_jugador_1aea1c3788c2e8f428dc4ecb01f05be221" prot="public" virt="non-virtual"><scope>MovimientoJugador</scope><name>velocidadSaltar</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

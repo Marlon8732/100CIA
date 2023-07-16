@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.7" xml:lang="en-US">
+  <compound refid="class_bandera" kind="class"><name>Bandera</name>
+    <member refid="class_bandera_1a0aaae06502e6f8f5bad887c9a1a2753c" kind="function"><name>OnTriggerEnter2D</name></member>
+  </compound>
+  <compound refid="class_cambiar_escena" kind="class"><name>CambiarEscena</name>
+    <member refid="class_cambiar_escena_1ad862d06a8eebe5b93a3b1ad7fcbae4c7" kind="function"><name>Cambiar</name></member>
+    <member refid="class_cambiar_escena_1a1cc72acf40e8912e990a061341a999d7" kind="function"><name>Salir</name></member>
+  </compound>
+  <compound refid="class_camera_controller" kind="class"><name>CameraController</name>
+    <member refid="class_camera_controller_1a65d8a542dcb4562b13f9cc35d2c4c6ab" kind="variable"><name>personaje</name></member>
+    <member refid="class_camera_controller_1a7a6c3241beb141bbe76f394a3b4a3dd4" kind="variable"><name>tamañoCamara</name></member>
+    <member refid="class_camera_controller_1a8cc4ec354939bbde82f16362510ffb77" kind="variable"><name>alturaPantalla</name></member>
+    <member refid="class_camera_controller_1ad4a238c6f7db3ee003302a245d860860" kind="function"><name>Start</name></member>
+    <member refid="class_camera_controller_1a7c4f486f4bcbd1d54a346fdce9707bd5" kind="function"><name>Update</name></member>
+    <member refid="class_camera_controller_1a6336e082c12178f32975b89e47949c59" kind="function"><name>CalcularPosicionCamara</name></member>
+  </compound>
+  <compound refid="class_enemigo" kind="class"><name>Enemigo</name>
+    <member refid="class_enemigo_1a97e7e34c9431da759b0514ee17d406cb" kind="variable"><name>canvas</name></member>
+    <member refid="class_enemigo_1ac9dfe4d586692fb72a88435941b94e32" kind="function"><name>OnTriggerEnter2D</name></member>
+  </compound>
+  <compound refid="class_falso_verdadero" kind="class"><name>FalsoVerdadero</name>
+    <member refid="class_falso_verdadero_1adfc89ab8a5b6dd0a0fd58b6b7c58fce0" kind="variable"><name>respuestas</name></member>
+    <member refid="class_falso_verdadero_1afff5e7ead438e4bd525fa790e94a45b0" kind="variable"><name>canvas</name></member>
+    <member refid="class_falso_verdadero_1af5bb6f509abc639020ccddf0660dd3fa" kind="variable"><name>objetoADestruir</name></member>
+    <member refid="class_falso_verdadero_1a10393b4e8993a0cf1730f24a6d70088d" kind="function"><name>ValidarPregunta</name></member>
+    <member refid="class_falso_verdadero_1af7c4c184fd0db9fc1c8bd080e84786e4" kind="function"><name>DesactivarCanvasYDestruirObjeto</name></member>
+  </compound>
+  <compound refid="classis_grounded" kind="class"><name>isGrounded</name>
+    <member refid="classis_grounded_1a56f473001dc03d2850d607e2b3494e8a" kind="variable"><name>groundCheck</name></member>
+    <member refid="classis_grounded_1a9619c4b47fffa1822045cad255ab27ea" kind="variable"><name>groundLayer</name></member>
+    <member refid="classis_grounded_1a47ddffeea20b1539ab2730abdaa69e49" kind="variable"><name>checkRadius</name></member>
+    <member refid="classis_grounded_1aaa8e9ff1b72f43c8faad01dfdd5c5fbe" kind="variable"><name>EsSuelo</name></member>
+    <member refid="classis_grounded_1ac2ca6f71e2f0530ac07920c8930540b4" kind="function"><name>Update</name></member>
+    <member refid="classis_grounded_1a602c91df7498e902f7756e54667cae52" kind="function"><name>IsGrounded</name></member>
+  </compound>
+  <compound refid="class_monedas" kind="class"><name>Monedas</name>
+    <member refid="class_monedas_1aa86f4106e4e535252d31b8f541324afc" kind="variable"><name>animator</name></member>
+    <member refid="class_monedas_1a964bf6ff153a8fbb7f5823e91e4d7d5c" kind="variable"><name>ExplosionAnimationTrigger</name></member>
+    <member refid="class_monedas_1a500a0fd8575e06582e76f50d4de48b35" kind="variable"><name>jugadorTag</name></member>
+    <member refid="class_monedas_1a4acaa5b255ec9c92ec0b12b035692f72" kind="variable"><name>hasCollided</name></member>
+    <member refid="class_monedas_1a2d60087c1bfdd7e875db8392393b5d53" kind="function"><name>OnTriggerEnter2D</name></member>
+    <member refid="class_monedas_1a27104b726fc5ededc93584c34372eb70" kind="function"><name>DestroyAfterAnimation</name></member>
+  </compound>
+  <compound refid="class_movimiento_jugador" kind="class"><name>MovimientoJugador</name>
+    <member refid="class_movimiento_jugador_1a9bd58b4b7ae652b5760ba5dcd4c22d0f" kind="variable"><name>spriteRenderer</name></member>
+    <member refid="class_movimiento_jugador_1aae3d111ddb3b8c9fc00137bb871a8f9c" kind="variable"><name>saltosRealizados</name></member>
+    <member refid="class_movimiento_jugador_1ac2c9da1b0681ef6e96fd7226da4c6e29" kind="variable"><name>corriendo</name></member>
+    <member refid="class_movimiento_jugador_1ae18121726f8b6745e83cf173659ef19b" kind="variable"><name>saltando</name></member>
+    <member refid="class_movimiento_jugador_1af509f1eac66176c9839363050f7453e0" kind="variable"><name>animator</name></member>
+    <member refid="class_movimiento_jugador_1a568515b63300b2b941287eccb07e365f" kind="variable"><name>rb2D</name></member>
+    <member refid="class_movimiento_jugador_1abf9f943e33230c48b8e7a15ef60aa533" kind="variable"><name>cantidadMonedas</name></member>
+    <member refid="class_movimiento_jugador_1a4a818418978cf5e45068e73c66e1f545" kind="variable"><name>velocidadCorrer</name></member>
+    <member refid="class_movimiento_jugador_1aea1c3788c2e8f428dc4ecb01f05be221" kind="variable"><name>velocidadSaltar</name></member>
+    <member refid="class_movimiento_jugador_1a626ab5f80aa51fa47215425188c39f96" kind="variable"><name>maxSaltos</name></member>
+    <member refid="class_movimiento_jugador_1a2bd1a0f4f4efa163bde4ff95bef12ea6" kind="variable"><name>contadorMonedas</name></member>
+    <member refid="class_movimiento_jugador_1a20fc6769bd7c125585951ac22d1acf34" kind="variable"><name>btnLeft</name></member>
+    <member refid="class_movimiento_jugador_1a0316d8e0bde14ff86934053e1ad247a7" kind="variable"><name>btnRight</name></member>
+    <member refid="class_movimiento_jugador_1a45b7acfc9cf7a8e5b9df9cfa15e7c91c" kind="variable"><name>btnJump</name></member>
+    <member refid="class_movimiento_jugador_1a1eff3188345171542ce18cd21934390d" kind="function"><name>Start</name></member>
+    <member refid="class_movimiento_jugador_1af119b0cf1122cb2b9324f92093f2ef86" kind="function"><name>OnCollisionEnter2D</name></member>
+    <member refid="class_movimiento_jugador_1a368fea00c70ea696d467903ee05b4b77" kind="function"><name>OnTriggerEnter2D</name></member>
+    <member refid="class_movimiento_jugador_1adab2bd078e77d5171ec8e5918dc2db6b" kind="function"><name>Update</name></member>
+    <member refid="class_movimiento_jugador_1a7337bc9aaf0bb88c2e02cc33e0250019" kind="function"><name>IrDerecha</name></member>
+    <member refid="class_movimiento_jugador_1a8a2c1756bbf3f5a7b03f0abe0b390a0a" kind="function"><name>IrIzquierda</name></member>
+    <member refid="class_movimiento_jugador_1a8edabf73fd84a50fece709a83161442e" kind="function"><name>Saltar</name></member>
+  </compound>
+  <compound refid="namespace_system_1_1_collections" kind="namespace"><name>System::Collections</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_unity_engine" kind="namespace"><name>UnityEngine</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_scene_management" kind="namespace"><name>UnityEngine::SceneManagement</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_u_i" kind="namespace"><name>UnityEngine::UI</name>
+  </compound>
+  <compound refid="_bandera_8cs" kind="file"><name>Bandera.cs</name>
+  </compound>
+  <compound refid="_cambiar_escena_8cs" kind="file"><name>CambiarEscena.cs</name>
+  </compound>
+  <compound refid="_camera_controller_8cs" kind="file"><name>CameraController.cs</name>
+  </compound>
+  <compound refid="_enemigo_8cs" kind="file"><name>Enemigo.cs</name>
+  </compound>
+  <compound refid="_falso_verdadero_8cs" kind="file"><name>FalsoVerdadero.cs</name>
+  </compound>
+  <compound refid="is_grounded_8cs" kind="file"><name>isGrounded.cs</name>
+  </compound>
+  <compound refid="_monedas_8cs" kind="file"><name>Monedas.cs</name>
+  </compound>
+  <compound refid="_movimiento_jugador_8cs" kind="file"><name>MovimientoJugador.cs</name>
+  </compound>
+  <compound refid="dir_57344f8a6f3e41839da896dc68b83525" kind="dir"><name>D:/Unity HUB/100CIA/100CIA 1.1/Assets/Codigos</name>
+  </compound>
+</doxygenindex>
