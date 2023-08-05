@@ -1,7 +1,6 @@
 # Presentación del Juego Educativo de Ciencias Naturales - Sistema Reproductor Masculino y Femenino
-![enter image description here]
+
 (https://dc763.4shared.com/img/Hm5_V1Euge/s24/189c31752e8/Logo-100cia---borde-blanco-1?async&rand=0.4046513639507292)
-([https://dc763.4shared.com/img/Hm5_V1Euge/s24/189c31752e8/Logo-100cia---borde-blanco-1?async&rand=0.4046513639507292](https://dc763.4shared.com/img/Hm5_V1Euge/s23/189c31752e8/Logo-100cia---borde-blanco-1))
 
 
 
@@ -9,7 +8,7 @@ Este documento de presentación proporciona respuestas a preguntas clave relacio
 
 
 ## a. Qué hace el proyecto
-(https://dc775.4shared.com/img/0Ctit8q9jq/s24/189c3174f00/Saludar-0?async&rand=0.6467608837134382)
+(https://dc763.4shared.com/img/Hm5_V1Euge/s24/189c31752e8/Logo-100cia---borde-blanco-1?async&rand=0.4046513639507292)
 
 El proyecto 100CIA consiste en un juego educativo interactivo diseñado para enseñar a los estudiantes sobre el sistema reproductor masculino y femenino. Utilizando una interfaz atractiva y dinámica, el juego proporciona información detallada sobre la anatomía y el funcionamiento de ambos sistemas. Además, presenta desafíos interactivos y preguntas de opción múltiple para que los estudiantes pongan a prueba su conocimiento y refuercen los conceptos aprendidos.
 
