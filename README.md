@@ -1,4 +1,5 @@
 # Presentación del Juego Educativo de Ciencias Naturales - Sistema Reproductor Masculino y Femenino
+<img src="https://www.4shared.com/photo/Hm5_V1Euge/Logo-100cia---borde-blanco-1.html" width="200" height="auto" alt="Foto de perfil">
 
 Este documento de presentación proporciona respuestas a preguntas clave relacionadas con un juego educativo diseñado para estudiantes de quinto grado de educación primaria en el campo de Ciencias Naturales. El juego se centra en el aprendizaje sobre el sistema reproductor masculino y femenino. 
 
