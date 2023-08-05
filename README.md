@@ -4,7 +4,8 @@
 
 
 Este documento de presentación proporciona respuestas a preguntas clave relacionadas con un juego educativo diseñado para estudiantes de quinto grado de educación primaria en el campo de Ciencias Naturales. El juego se centra en el aprendizaje sobre el sistema reproductor masculino y femenino. 
-<img src="https://dc763.4shared.com/img/Hm5_V1Euge/s24/189c31752e8/Logo-100cia---borde-blanco-1?async&rand=0.4046513639507292" width="500" height="auto" alt="Logo">
+
+
 ## a. Qué hace el proyecto
 (https://dc775.4shared.com/img/0Ctit8q9jq/s24/189c3174f00/Saludar-0?async&rand=0.6467608837134382)
 
