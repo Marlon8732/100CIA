@@ -1,5 +1,5 @@
 # Presentación del Juego Educativo de Ciencias Naturales - Sistema Reproductor Masculino y Femenino
-(https://dc763.4shared.com/img/Hm5_V1Euge/s24/189c31752e8/Logo-100cia---borde-blanco-1?async&rand=0.4046513639507292)
+([https://dc763.4shared.com/img/Hm5_V1Euge/s24/189c31752e8/Logo-100cia---borde-blanco-1?async&rand=0.4046513639507292](https://dc763.4shared.com/img/Hm5_V1Euge/s23/189c31752e8/Logo-100cia---borde-blanco-1))
 
 
 
